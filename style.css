@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  min-height: 100vh;
+  padding: 1vh;
+}
+main{
+  font-family: "Montserrat", sans-serif;
+}
+.one{
+  width: 100%;
+  height: 98vh;
+  background-image: url(https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?q=80&amp;w=1887&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background: cover;
+  background-position: top;
+}
+nav{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  font-weight: 600;
+}
+.left{
+  color: white;
+  font-size: 1.3rem;
+
+}
+.right{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.right a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.subscribe{
+  border: 1px solid white;
+  padding: 15px 22px;
+  transition: all 0.3s ease;
+}
+.subscribe:hover{
+  background-color: aliceblue;
+  color: rgb(90,76,76);
+}
+.main-text{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  margin-top: 46vh;
+}
+.main-text h1{
+  font-size: 5.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.main-text h3{
+  font-size: 0.870rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.line{
+  width: 28px;
+  height: 5px;
+  background: white;
+}
+
+.two{
+  width: 100%;
+  height: 98vh;
+  background: white;
+  padding-top: 20vh;
+  padding-bottom: 6vh;
+}
+.articles{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.articles h1{
+  font-size: 3vw;
+  font-weight: 700;
+  text-align: center;
+}
+.articles .line{
+  width: 5vw;
+  height: 0.4vh;
+  background: black;
+  margin-top: 2vh;
+}
+.cards{
+  width: 66vw;
+  margin: 3vh auto 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 3vw;
+}
+.card{
+  width: 21vw;
+  background: white;
+  box-shadow: 0 2vh 2vw rgba(0, 0, 0, 0.25);
+}
+.card img{
+  width: 100%;
+  height: 13vw;
+  display: block;
+  object-fit: cover;
+}
+.caption{
+  width: 100%;
+  height: 13vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.caption p{
+  width: 80%;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.third{
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+
+}
+.third-left{
+  width: 50%;
+}
+.third-left img{
+  width: 100%;
+  height: 97vh;
+  object-fit: cover;
+  display: block;
+}
+.third-right{
+  width: 50%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 5vw;
+}
+.third-right h2{
+  font-size: 4rem;
+  font-weight: 700;
+}
+.about-line{
+  width: 70px;
+  height: 4px;
+  background: black;
+  margin: 20px 0 50px;
+}
+.third-right article{
+  max-width: 650px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.four{
+  width: 100%;
+  min-height: 100vh;
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.four h1{
+  font-size: 4rem;
+  font-weight: 700;
+}
+.four h4{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.four input{
+  width: 350px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  font-size: 1rem;
+  background: white;
+}
+.four button{
+  padding: 12px 35px;
+  background: transparent;
+  border: 1px solid #111;
+  cursor: pointer;
+  font-size: 1rem;
+}
+footer{
+  width: 100%;
+  min-height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8vw;
+}
+.footer-left,
+.footer-right{
+  display: flex;
+  gap: 20px;
+}
+.footer-right a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.footer-left a{
+  color: black;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+.footer-left a:hover{
+  transform:translateY(-3px)
+}
+
+
+@media(max-width:768px){
+
+  .right{
+    display: none;
+  }
+  .main-text{
+    margin-top: 35vh;
+  }
+  .main-text h1{
+    font-size: 4rem;
+  }
+  .main-text h3{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .two{
+    height: auto;
+    padding: 10vh 5vw;
+  }
+  .cards{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .card{
+    width: 90%;
+  }
+  .card img{
+    height: 250px;
+  }
+  .caption{
+    height: auto;
+    padding: 25px;
+  }
+  .caption p{
+    font-size: 1rem;
+  }
+  .third{
+    flex-direction: column;
+  }
+  .third-left,
+  .third-right{
+    width: 100%;
+  }
+  .third-left{
+    height: 350px;
+  }
+  .third-right{
+    padding: 60px 30px;
+  }
+  .third-right h2{
+    font-size: 2.5rem;
+  }
+  .third-right article{
+    font-size: 1rem;
+  }
+  .four h1{
+    font-size: 2.5rem;
+  }
+  .four input{
+    width: 90%;
+  }
+  footer{
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+  }
+  .footer-right{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+
+}
